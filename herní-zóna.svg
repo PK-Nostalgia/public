@@ -1,13 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="64 -256 512 768" width="2048" height="2048">
-	<!--<image href="rawdata/podklad.png" width="512" height="768" x="256"/>-->	
-
-	<image href="rawdata/map_96_59.jpg" width="256" height="256" x="0" y="-256"/>
-	<image href="rawdata/map_96_60.jpg" width="256" height="256" x="0" y="0"/>
-	<image href="rawdata/map_96_61.jpg" width="256" height="256" x="0" y="256"/>
+	<image href="./rawdata/map_96_59.jpg" width="256" height="256" x="0" y="-256"/>
+	<image href="./rawdata/map_96_60.jpg" width="256" height="256" x="0" y="0"/>
+	<image href="./rawdata/map_96_61.jpg" width="256" height="256" x="0" y="256"/>
 	
-	<image href="rawdata/map_97_59.jpg" width="256" height="256" x="256" y="-256"/>
-	<image href="rawdata/map_97_60.jpg" width="256" height="256" x="256" y="0"/>
-	<image href="rawdata/map_97_61.jpg" width="256" height="256" x="256" y="256"/>
+	<image href="./rawdata/map_97_59.jpg" width="256" height="256" x="256" y="-256"/>
+	<image href="./rawdata/map_97_60.jpg" width="256" height="256" x="256" y="0"/>
+	<image href="./rawdata/map_97_61.jpg" width="256" height="256" x="256" y="256"/>
 
 	
   	<defs>
