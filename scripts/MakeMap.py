@@ -1,9 +1,18 @@
 import os
 import json
 import re
+import requests
 
 with open("../rawdata/playArea.json", "r") as json_file:
     config = json.load(json_file)
+
+for c in range(config['colFrom'], config['colTo'] + 1):
+	for r in range(config['rowFrom'], config['rowTo'] +1):
+		url = "https://mt0.sea.cf.wyrimaps.wyri.haxim.us/v/13/wow_battle_for_azeroth/7/{}/{}.jpg".format(c,r)
+		filename = "../rawdata/map_{}_{}.jpg".format(c,r)
+		response = requests.get(url)
+		with open(filename, "wb") as file:
+			file.write(response.content)
 
 rawdata_dir = "../rawdata"
 image_files = [f for f in os.listdir(rawdata_dir) if f.endswith(".jpg")]

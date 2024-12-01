@@ -1,4 +1,8 @@
 {
+	"colFrom": 96,
+	"colTo": 97,
+	"rowFrom": 59,
+	"rowTo": 61,
     "viewBox": "64 -256 512 768",
     "width": 2048,
     "height": 2048,
