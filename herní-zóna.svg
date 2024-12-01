@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="64 -256 512 768" width="2048" height="2048">
+	<!--<image href="rawdata/podklad.png" width="512" height="768" x="256"/>-->	
+
+	<image href="rawdata/map_96_59.jpg" width="256" height="256" x="0" y="-256"/>
+	<image href="rawdata/map_96_60.jpg" width="256" height="256" x="0" y="0"/>
+	<image href="rawdata/map_96_61.jpg" width="256" height="256" x="0" y="256"/>
+	
+	<image href="rawdata/map_97_59.jpg" width="256" height="256" x="256" y="-256"/>
+	<image href="rawdata/map_97_60.jpg" width="256" height="256" x="256" y="0"/>
+	<image href="rawdata/map_97_61.jpg" width="256" height="256" x="256" y="256"/>
+
+	
+  	<defs>
+    	<mask id="playMask">
+      		<rect width="200%" height="200%" x="-100%" y="-100%" fill="white" />
+      		<polygon 
+				id="playArea"
+				points="
+				512,-256
+				512,512
+				256,436
+				100,288
+				145,188
+				145,88
+				130,-12
+				256,-112
+				300,-212"
+				/>
+    	</mask>
+	</defs>
+  	<rect width="200%" height="200%" x="-100%" y="-100%" fill="#FF000055" mask="url(#playMask)">
+		<title>Zákaz vstupu</title>
+	</rect>
+	<use href="#playArea" fill="#00FF0022">
+		<title>Herní zóna</title>
+	</use>
+</svg>
